@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(238, 191, 129);
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction:row;
+    height: 400px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    
+}
+
+.one,.two,.three{
+    /* flex: 1; */
+    width: 300px;
+    background-color: aqua;
+    /* height:200px; */
+    border:2px solid blue;
+    padding: 3px;
+    text-align: center;
+}
+
+/* .two{
+    flex: 2;
+} */
+
+.one{
+    order: 1;
+}
+
+.two{
+    order: 2;
+
+}
+
+.three{
+    order: 3;
+}

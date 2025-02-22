@@ -1,0 +1,22 @@
+body{
+    margin :0
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one{
+    background-color: yellow;
+    font-size: large;
+
+}
+
+#two{
+    background-color: lightcoral;
+    font-size: large;
+
+}
