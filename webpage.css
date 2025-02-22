@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.15);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header a {
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(110, 107, 107);
+    text-decoration: none;
+}
+
+.banner-container {
+    margin-top: 50px;
+    height: 100vh;
+    background:
+        linear-gradient(rgba(92, 112, 120, 0.7), rgba(0, 0, 0, 0.7)),
+        url("./images/pexels-philippedonn-1114690.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.banner-container .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left-section {
+    width: 700px;
+}
+
+.left-section button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+.left-section button:hover {
+    background-color: #48433f; /* Darker shade of orange */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+.banner-container .left-section h1 {
+    margin: 0;
+}
+
+.banner-container .left-section {
+    font-size: 25px;
+}
+
+.left-section p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
